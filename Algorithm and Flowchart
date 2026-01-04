@@ -1,0 +1,54 @@
+Algorithm:
+Algorithm: Structured Question Answering 
+1)Start
+2)Convert input text into structured representation
+3)Store structured data in a knowledge base
+4)Accept question from the user
+5)Convert question into structured form
+6)Match question structure with stored structures
+7)If a match is found, extract the required field
+8)Display the extracted answer
+9)If no match is found, display “No answer found”
+10)Stop
+
+Flowchart:
+ ┌───────────┐
+ │   Start   │
+ └─────┬─────┘
+       │
+ ┌─────▼──────────────────┐
+ │ Convert Text to         │
+ │ Structured Form         │
+ └─────┬──────────────────┘
+       │
+ ┌─────▼────────────┐
+ │ Store in KB      │
+ └─────┬────────────┘
+       │
+ ┌─────▼────────────┐
+ │ Input Question   │
+ └─────┬────────────┘
+       │
+ ┌─────▼──────────────────┐
+ │ Convert Question to     │
+ │ Structured Form         │
+ └─────┬──────────────────┘
+       │
+ ┌─────▼────────────┐
+ │ Match Structures │
+ └─────┬─────┬──────┘
+       │Yes  │No
+       │     │
+ ┌─────▼───┐ ┌───────────────┐
+ │ Extract │ │ Display "No   │
+ │ Answer  │ │ Answer Found" │
+ └─────┬───┘ └───────────────┘
+       │
+ ┌─────▼─────┐
+ │ Display   │
+ │ Answer    │
+ └─────┬─────┘
+       │
+ ┌─────▼─────┐
+ │   Stop    │
+ └───────────┘
